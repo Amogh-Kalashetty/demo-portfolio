@@ -4,6 +4,13 @@ body, h1, h2, h3, p {
     padding: 0;
 }
 
+body {
+    background-image: url('/images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
