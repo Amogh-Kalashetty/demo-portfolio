@@ -2,10 +2,41 @@
 <html>
 <head>
     <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <h3>This is the homepage.</h3>
-    <p>I'll be enhancing this webpage in coming days, Keep an eye on this ;)</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Keep an eye on this, I'll be enhancing the webpage daily ;)</p>
+        <a href="#portfolio" class="cta-button">View My Work</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate DevOps learner. This is my first project where-in I build and deployed on the aws ec2 server.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="/images/project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>This is a description of my first project. It showcases my skills in HTML, CSS, and JavaScript.</p>
+        </div>
+        <!-- Add more portfolio items here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
