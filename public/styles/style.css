@@ -1,0 +1,64 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Hero section styles */
+#hero {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.cta-button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* About section styles */
+#about {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Contact section styles */
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
